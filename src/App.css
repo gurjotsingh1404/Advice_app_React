@@ -9,18 +9,32 @@ body {
 
 .app {
   block-size: 100%;
-  background: url("./images/m.jpg") center/cover no-repeat;
-  background-color: #d4cbcb; /* Fallback background color */
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("./images/city.jpg");
+  background-size: cover;
+  background-position: center;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
 }
 
+.card {
+  background: whitesmoke;
+  inline-size: 40%;
+  block-size: 20%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 25px;
+  padding: 2%;
+  box-shadow: 10px 10px;
+}
+
 .heading {
   display: flex;
   align-items: center;
-  block-size: 570px;
+  block-size: 582px;
 }
 
 .button {
